@@ -1,0 +1,275 @@
+header{
+
+    /* background-image: url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background: linear-gradient();
+    
+    background-size: cover;
+    height: 800px;
+     */
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+     background-size: cover;
+     height: 800px;
+}
+#logo{
+    width: 259px;
+    padding: 50px;
+    
+}
+#opt{
+    background-color: transparent;
+    color: aliceblue;
+    margin-left: 1000px;
+    
+    
+}
+#text{
+    color: white;
+    font-size: 350%;
+    font-weight: 750;
+    margin-left: 450px;
+}
+#start{
+    color: white;
+    margin-left: 35%;
+
+}
+#ready{
+    margin-left: 400px;
+    color: white;
+}
+.email{
+    color: rgba(0, 0, 0, 0.334);
+    background-color: rgba(0, 0, 0, 0.323);
+    width: 420px;
+    height: 50px;
+    margin-left: 30%;
+}
+#get{
+    height: 50px;
+}
+#snd{
+    background-color:black;
+    height: 2000px;
+
+}
+#trend{
+    color: white;
+    size: 100%;
+    font-weight: 500;
+    margin-left: 20px;
+    
+
+}
+.otp{
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+}
+.img{
+    width: 100px;
+    height: 50px;
+}
+#more{
+    color: white;
+    margin-left: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    max-height: 800px;
+    margin-left: 50px;
+    margin-right: 40px;
+    background-color: black;
+    
+
+    
+    
+}
+.card-body{
+    border: solid rgba(99, 96, 96, 0);
+    border-radius: 8px;
+    background-color:rgba(48, 39, 56, 0.455);
+    color: white;
+    
+    height: 250px;
+}
+#pc{
+    width: 80px;
+    margin-left: 210px;
+}
+#down{
+    width: 80px;
+    margin-left: 210px;
+}
+#scope{
+    width: 80px;
+    margin-left: 210px;
+}
+#face{
+    width: 80px;
+    margin-left: 210px;
+}
+#new{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+}
+.accordion-item{
+    background-color:rgba(48, 39, 56, 0.455); 
+    
+    color: white; 
+   
+    
+}
+.accordion-collapse{
+    background-color:rgba(48, 39, 56, 0.455);
+    color: white;
+}
+.heading{
+    color: white;
+    background-color:rgba(48, 39, 56, 0.455);
+}
+.accordion-header{
+    color: white;
+    background-color: black;
+}
+.accordion-button{
+    color: white;
+    background-color:rgba(48, 39, 56, 0.455); 
+    border: solid black 5px;
+}
+#rdy{
+    color: white;
+    margin-left: 410px;
+}
+#mail{
+    width: 550px;
+    height: 60px;
+    margin-left: 360px;
+    color: rgba(255, 255, 255, 0.592);
+    background-color: black;
+}
+#get2{
+    width: 200px;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#div{
+    display: flex;
+    align-items: center;
+}
+#call{
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.34);
+}
+
+
+#foot{
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 0.768);
+}
+.foot2{
+    color: white;
+}
+
+
+/* media quiry */
+@media only screen and (max-width:600px){
+    #logo{
+        width: 100px;
+        padding: 25px;
+    }
+
+    #opt{
+
+        margin-left: 250px;
+    }
+    #text{
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 200%;
+        font-weight: 700;
+        margin-top: 80px;
+        
+    }
+    #start{
+        margin-left: 26%;
+        font-size: 100%;
+        
+    }
+    #ready{
+        margin-left: 100px;
+    }
+    .email{
+        
+        width: 250px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    #get{
+        height: 50px;
+        width: 150px;
+    }
+    header{
+        height: 600px;
+
+    }
+    .carousel-item {
+        
+        height: 350px;
+    }
+    .d-block {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: 50px;
+    }
+    .card{
+        flex-direction: row;
+        width: 400px;
+        
+
+        
+    } 
+    .card-group{
+        flex-direction: column;
+        
+    }
+    #card2{
+        margin-left: 100px;
+    }
+    #card1{
+        margin-left: 100px;
+    }
+    #card3{
+        margin-left: 100px;
+
+    }
+    #card4{
+        margin-left: 100px;
+    }
+    #snd{
+        background-color: black;
+        height: 2600px;
+
+    }
+    #rdy{
+        margin-left: 20px;
+    }
+    #mail{
+        margin-left: 50px;
+        width: 300px;
+    }
+    #call{
+        margin-left: 20px;
+    }
+    #foot{
+        width: 500px;
+        font-size: smaller;
+        margin-left: 20px;
+    }
+
+}
